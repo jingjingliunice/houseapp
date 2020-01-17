@@ -1,0 +1,30 @@
+
+// 猜你喜欢类列表
+.loves{
+  .am-list .my-list{
+      align-items: center;
+    .am-list-item .am-list-item-error .am-list-item-top{
+     div.am-list-thumb{
+        height:80px!important;
+      }
+    }
+  
+  }
+  .am-list-thumb{
+    height:80px!important;
+  }
+  .am-list-item {
+    &:hover{
+      background:rgba(20,142,255,.1);
+    }
+  }
+  .am-list-item .am-list-thumb img{
+    vertical-align:top;
+    width:80px!important;
+    height:80px!important;
+    border-radius:3%!important;
+  
+  }
+}
+
+

@@ -1,0 +1,23 @@
+//scss（$base:red）:基于Ruby定义变量和less(基于js)不同（@变量名:#fff）
+.cls{
+    color:red;
+    font-size:16px;
+}
+.login{
+    overflow-x: hidden;
+}
+a{
+    color:rgb(20,142,255)
+}
+.logodiv{
+    height:120px;
+    margin-top:80px;
+    img{
+        width:200px;
+    }
+}
+.login.am-flexbox.am-flexbox-align-cente{
+    height:190px!important;
+    flex:0 0 190px;
+}
+

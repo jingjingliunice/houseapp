@@ -1,0 +1,16 @@
+.tag-container{
+    display: flex;
+    padding-top: 9px;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .tag-container > div {
+    margin-left: 9px;
+    margin-bottom: 9px;
+  }
+.btns{
+    padding:5px 15px;
+    display:flex;
+    justify-content: space-between;
+    color:#666;
+}

@@ -1,0 +1,51 @@
+
+.citypage2{
+    width:100%;
+    height:100%;
+    #citylist-left-box{
+        position: fixed;
+        left: 0;
+        height: 100%;
+        width: 90%;
+        background-color: salmon;
+        ul{
+            padding:0;
+            margin:0;
+        }
+    }
+    .letterbar{
+        position:fixed;
+        top:30px;
+        right:0;
+        width:18px;
+        background:rgba(0,0,0,.1);
+        z-index:20;
+        color:#000;
+        text-align: center;
+        font-size:18px;
+        div{
+            &:hover{
+                color:#fff;
+                // color:rgb(20,142,255);
+            }
+        }
+    }
+}
+.am-tag-normal{
+    color:#000!important;
+} 
+.am-tag {
+    position: relative;
+    padding:0!important;
+    .hotcityname{
+        width:100px;
+        height:50px;
+        position: absolute;
+        left:0;
+        top:0;
+        background:rgba(0,0,0,.3);
+        text-align: center;
+        line-height:50px;
+        color:#fff;
+    }
+}

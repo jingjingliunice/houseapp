@@ -1,0 +1,118 @@
+.main{
+    background:#eee;
+    overflow-y: scroll;
+    .scroll{
+      overflow-y: scroll;
+   }
+   #tab-bar.demo {
+     display: flex;
+     flex-direction: column;
+   }
+   #tab-bar .demoName {
+     height: 40px;
+   }
+   #tab-bar .demo-preview-item .am-tab-bar {
+     background-color: white;
+   }
+   .navhead{
+     display:flex;
+     justify-content: space-between;
+     align-items: center;
+     .icon{
+       flex:0 0 70px;
+       text-align: center;
+       color:#fff;
+     }
+       .icon1{
+         flex:0 0 40px;
+         img{
+           width:30px!important;
+       }
+       label{
+         padding:0 3px;
+         font-size:16px;
+         color:#fff;
+       }
+     }
+     .am-search{
+       background:rgb(20,142,255);
+       padding:0;
+       flex:1;
+       .am-search-input{border-radius: 20px;height:33px;line-height:33px;};
+       .am-search-cancel{
+         display:none;
+       }
+     }
+   }
+   // 猜你喜欢类列表
+   .loves{
+     .am-list .my-list{
+       .am-list-item .am-list-item-error .am-list-item-top{
+        div.am-list-thumb{
+           height:90px!important;
+         }
+       }
+     
+     }
+     .am-list-thumb{
+       height:80px!important;
+     }
+     .am-list-item {
+       &:hover{
+         background:rgba(20,142,255,.1);
+       }
+     }
+     .am-list-item .am-list-thumb img{
+       vertical-align:top;
+       width:80px!important;
+       height:80px!important;
+       border-radius:3%!important;
+     
+     }
+   }
+   
+   // 菜单
+   .menu{
+     background:#fff;
+   }
+       .am-grid .am-flexbox .am-flexbox-item .am-grid-item-content{
+         padding:1px 0;
+       }
+      .am-grid.am-grid-square .am-grid-item .am-grid-item-inner-content img.am-grid-icon{
+         width:45%!important;
+         margin-top:0;
+       }
+       .submenu{
+         background:#fff;
+         .am-grid .am-flexbox .am-flexbox-item .am-grid-item-content .am-grid-item-inner-content .am-grid-text{
+           margin-top:1px!important;
+         }
+       }
+   .flex-container {
+     margin: 0 15px;
+   }
+   .flex-container .inline {
+     width: 80px!important;
+     margin: 9px 9px 9px 0;
+   }
+   .flex-container .small {
+     height: 20px!important;
+     line-height: 20px!important;
+   }
+   .sub-title {
+     color: #888;
+     font-size: 14px;
+     padding: 30px 0 18px 0;
+   }
+   .my-list .spe .am-list-extra {
+       flex-basis: initial;
+   }
+   .am-list-header{
+     padding:4px 4px 5px 15px!important;
+   }
+   .slider-list{
+     img{
+       height:180px;
+     }
+   }
+}

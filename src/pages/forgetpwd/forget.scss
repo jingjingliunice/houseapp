@@ -1,0 +1,30 @@
+.my-radio .am-radio {
+    padding: 2.5px;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    margin-right: 5px;
+    font-size:12px;
+  }
+  a{
+    color:rgb(20,142,255)
+    
+}
+.regpage{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+///
+.logodiv{
+  width:100%;
+  height:120px;
+  margin-top:80px;
+  img{
+      width:200px;
+  }
+}
+.login.am-flexbox.am-flexbox-align-cente{
+  height:190px!important;
+  flex:0 0 190px;
+}
